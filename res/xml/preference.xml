@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory  android:title="@string/settings">
+		<CheckBoxPreference
+				android:key="enableTouchEffect"
+				android:title="@string/use_toucheffect"
+				android:summary="@string/use_toucheffect_summary">
+		</CheckBoxPreference>
+		<EditTextPreference
+				android:key="noiseSensitivity"
+				android:title="@string/noise_Sensitivity"
+				android:summary="@string/noise_Sensitivity_summary"
+				android:inputType="number"
+				android:maxLength="3">
+		</EditTextPreference>
+		<CheckBoxPreference
+				android:key="showFps"
+				android:title="@string/use_show_fps"
+				android:summary="@string/use_show_fps">
+		</CheckBoxPreference>
+	</PreferenceCategory>
+
+</PreferenceScreen>

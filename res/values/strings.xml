@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name01">めくり</string>
+	<string name="app_name02">設定</string>
+	<string name="finish">終了</string>
+	<string name="settings">設定</string>
+
+	<string name="use_toucheffect">タッチエフェクト</string>
+	<string name="use_toucheffect_summary">タッチエフェクトのON/OFFを切り替えます</string>
+	<string name="use_toucheffect_summary_on">タッチエフェクトを行います</string>
+	<string name="use_toucheffect_summary_off">タッチエフェクトを行いません</string>
+
+	<string name="noise_Sensitivity">音感度</string>
+	<string name="noise_Sensitivity_summary">1～500%の範囲で音の感度を設定します</string>
+	<string name="noise_Sensitivity_range_error">音感度は、%1$d～%2$dの範囲で入力してください</string>
+
+	<string name="use_show_fps">FPS表示</string>
+	<string name="use_show_fps_summary">FPS表示のON/OFFを切り替えます</string>
+	<string name="use_show_fps_summary_on">FPS表示を行います</string>
+	<string name="use_show_fps_summary_off">FPS表示を行いません</string>
+</resources>
